@@ -1,6 +1,33 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+   <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '3993330404218573');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=3993330404218573&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+    
+	
+	
+<script>
+ function kma() {
+             fbq('track', 'AddToCart');
+      fbq('track', 'Purchase');
+            window.open('https://mjluu.wasap.my', '_blank');
+        }
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
     <title>Ubah Hidup Anda - Mulai Sekarang</title>
@@ -137,11 +164,6 @@
                 </div>
             </div>
             
-            <div class="text-center mb-8">
-                <img src="img/2.jpg" 
-                     alt="Success Journey" 
-                     class="w-full max-w-2xl mx-auto rounded-2xl shadow-2xl">
-            </div>
             
             <div class="text-center">
                 <button onclick="kma()" class="gold-accent text-blue-900 px-8 py-4 rounded-full text-xl font-bold hover:transform hover:scale-105 transition-all duration-300 shadow-2xl">
@@ -278,21 +300,7 @@
             </div>
         </div>
     </div>
-
-    <!-- Risk Disclosure -->
-    <div class="py-12 bg-gray-800 text-white">
-        <div class="max-w-4xl mx-auto px-4">
-            <div class="text-center mb-8">
-                <h3 class="text-2xl font-bold text-yellow-400 mb-4">⚠️ Peringatan Risiko Penting</h3>
-            </div>
-            <div class="text-sm leading-relaxed space-y-2 opacity-90">
-                <p>* Layanan ini hanya untuk referensi, tidak menyediakan layanan konsultasi investasi atau layanan perdagangan produk keuangan apapun.</p>
-                <p>* Informasi yang disediakan hanya untuk referensi, tidak boleh dijadikan dasar untuk keputusan investasi.</p>
-                <p>* Risiko keputusan investasi akhir ditanggung sendiri oleh Anda.</p>
-                <p>* Keakuratan data tidak dijamin.</p>
-            </div>
-        </div>
-    </div>
+ 
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-8">
@@ -307,7 +315,7 @@
 
     <!-- Floating WhatsApp -->
     <div class="floating-whatsapp">
-        <button onclick="k2()" class="bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full shadow-2xl flex items-center justify-center relative breathe">
+        <button onclick="kma()" class="bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full shadow-2xl flex items-center justify-center relative breathe">
             <i class="fab fa-whatsapp text-2xl"></i>
             <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs w-6 h-6 rounded-full flex items-center justify-center font-bold">1</span>
         </button>
@@ -321,16 +329,8 @@
     </div>
 
     <script>
-        function kma() {
-            // WhatsApp link functionality
-            window.open('https://wa.me/', '_blank');
-        }
-        
-        function k2() {
-            // WhatsApp icon functionality
-            window.open('https://wa.me/', '_blank');
-        }
-        
+       
+         
         // Smooth scrolling for internal links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
